@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+.vs/
+Kiwi.Service.CouponAPI/obj/
+Kiwi.Web/bin/
+Kiwi.Service.CouponAPI/bin/
+Kiwi.Web/obj/
+Kiwi/obj/

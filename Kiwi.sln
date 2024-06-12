@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34909.67
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{817ABAF5-9E5B-4DAE-B149-83166C0922B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{9D03991A-7EAE-484C-AD57-3E5E487DF695}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{BC363D89-6EA5-477C-8094-9DDEDC39A047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{BF95A646-BAED-4B4E-BCDC-D68833D65A32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiwi.Service.CouponAPI", "Kiwi.Service.CouponAPI\Kiwi.Service.CouponAPI.csproj", "{4098CA76-CB35-4BDE-B3FF-920034E10FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiwi.Web", "Kiwi.Web\Kiwi.Web.csproj", "{5677D71C-198F-4964-86D6-6AB63CBA970C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4098CA76-CB35-4BDE-B3FF-920034E10FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4098CA76-CB35-4BDE-B3FF-920034E10FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4098CA76-CB35-4BDE-B3FF-920034E10FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4098CA76-CB35-4BDE-B3FF-920034E10FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5677D71C-198F-4964-86D6-6AB63CBA970C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5677D71C-198F-4964-86D6-6AB63CBA970C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5677D71C-198F-4964-86D6-6AB63CBA970C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5677D71C-198F-4964-86D6-6AB63CBA970C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4098CA76-CB35-4BDE-B3FF-920034E10FDD} = {817ABAF5-9E5B-4DAE-B149-83166C0922B2}
+		{5677D71C-198F-4964-86D6-6AB63CBA970C} = {BC363D89-6EA5-477C-8094-9DDEDC39A047}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7F771C0-421F-4712-9B6A-D97445A55CEB}
+	EndGlobalSection
+EndGlobal

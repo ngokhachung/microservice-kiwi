@@ -1,0 +1,5 @@
+@Kiwi.Service.CouponAPI_HostAddress = http://localhost:5078
+
+Accept: application/json
+
+###
