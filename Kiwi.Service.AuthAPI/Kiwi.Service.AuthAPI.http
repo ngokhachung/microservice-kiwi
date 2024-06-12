@@ -1,0 +1,6 @@
+@Kiwi.Service.AuthAPI_HostAddress = http://localhost:7002
+
+GET {{Kiwi.Service.AuthAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

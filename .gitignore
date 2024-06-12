@@ -36,3 +36,5 @@ Kiwi.Web/bin/
 Kiwi.Service.CouponAPI/bin/
 Kiwi.Web/obj/
 Kiwi/obj/
+/Kiwi.Service.AuthAPI/bin/Debug/net8.0
+/Kiwi.Service.AuthAPI/obj

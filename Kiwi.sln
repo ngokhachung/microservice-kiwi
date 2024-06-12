@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiwi.Service.CouponAPI", "Kiwi.Service.CouponAPI\Kiwi.Service.CouponAPI.csproj", "{4098CA76-CB35-4BDE-B3FF-920034E10FDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiwi.Web", "Kiwi.Web\Kiwi.Web.csproj", "{5677D71C-198F-4964-86D6-6AB63CBA970C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiwi.Web", "Kiwi.Web\Kiwi.Web.csproj", "{5677D71C-198F-4964-86D6-6AB63CBA970C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiwi.Service.AuthAPI", "Kiwi.Service.AuthAPI\Kiwi.Service.AuthAPI.csproj", "{DE5644FD-A8DC-439F-9FB0-06D7D74F4021}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{5677D71C-198F-4964-86D6-6AB63CBA970C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5677D71C-198F-4964-86D6-6AB63CBA970C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5677D71C-198F-4964-86D6-6AB63CBA970C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5644FD-A8DC-439F-9FB0-06D7D74F4021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5644FD-A8DC-439F-9FB0-06D7D74F4021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5644FD-A8DC-439F-9FB0-06D7D74F4021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5644FD-A8DC-439F-9FB0-06D7D74F4021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4098CA76-CB35-4BDE-B3FF-920034E10FDD} = {817ABAF5-9E5B-4DAE-B149-83166C0922B2}
 		{5677D71C-198F-4964-86D6-6AB63CBA970C} = {BC363D89-6EA5-477C-8094-9DDEDC39A047}
+		{DE5644FD-A8DC-439F-9FB0-06D7D74F4021} = {817ABAF5-9E5B-4DAE-B149-83166C0922B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7F771C0-421F-4712-9B6A-D97445A55CEB}
