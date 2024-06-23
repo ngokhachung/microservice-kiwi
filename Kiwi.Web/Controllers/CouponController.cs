@@ -10,20 +10,18 @@ namespace Kiwi.Web.Controllers
         private readonly ICouponService _couponService = couponService;
         public async Task<IActionResult> CouponIndex()
         {
-            List<CouponDto>? list = [];
-
             ResponseModel? response = await _couponService.GetAllCouponsAsync();
 
             if (response != null && response.IsSuccess)
             {
-                list = JsonConvert.DeserializeObject<List<CouponDto>>(Convert.ToString(response.Data));
+                var list = JsonConvert.DeserializeObject<List<CouponDto>>(Convert.ToString(response.Data));
+                return View(list);
             }
             else
             {
                 TempData["error"] = response?.Message;
+                return View();
             }
-
-            return View(list);
         }
 
         [HttpGet]

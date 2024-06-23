@@ -7,7 +7,7 @@ namespace Kiwi.Web.Controllers
     {
         public IActionResult Index()
         {
-            List<ProductDto> res = [];
+            List<ProductModel> res = [];
             return View(res);
         }
     }
