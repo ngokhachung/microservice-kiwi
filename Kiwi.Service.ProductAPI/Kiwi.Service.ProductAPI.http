@@ -1,0 +1,6 @@
+@Kiwi.Service.ProductAPI_HostAddress = http://localhost:5118
+
+GET {{Kiwi.Service.ProductAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

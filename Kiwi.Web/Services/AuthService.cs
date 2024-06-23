@@ -2,11 +2,10 @@
 using Kiwi.Web.Models;
 using Kiwi.Web.Services.IServices;
 using Kiwi.Web.Utilites;
-using Microsoft.AspNetCore.Identity.Data;
 
 namespace Kiwi.Web.Services
 {
-    public class AuthService(IBaseService baseService) : IAuthService
+	public class AuthService(IBaseService baseService) : IAuthService
     {
         private readonly IBaseService _baseService = baseService;
 

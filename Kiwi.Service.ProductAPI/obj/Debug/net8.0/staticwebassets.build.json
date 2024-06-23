@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vlzE1mPp9NCRK10z1qev/bgZWVe2NorJbbjOxghHXTw=",
+  "Source": "Kiwi.Service.ProductAPI",
+  "BasePath": "_content/Kiwi.Service.ProductAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

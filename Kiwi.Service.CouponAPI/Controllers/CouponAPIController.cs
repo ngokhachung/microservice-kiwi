@@ -7,16 +7,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Kiwi.Service.CouponAPI.Controllers
 {
-	[Route("api/[controller]")]
+	[Route("api/coupon")]
 	[ApiController]
 	[Authorize]
-	public class CouponController(AppDbContext appDbContext, IMapper mapper) : Controller
+	public class CouponAPIController(AppDbContext appDbContext, IMapper mapper) : Controller
 	{
 		private AppDbContext _appDbContext = appDbContext;
 		private IMapper _mapper = mapper;
 
 		[HttpGet]
-		public ResponseDto<IEnumerable<Coupon>> GetAll()
+		public ResponseDto<IEnumerable<Coupon>> Index()
 		{
 			try
 			{
